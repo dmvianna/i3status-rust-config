@@ -13,8 +13,8 @@ alert = 10.0
 
 [[block]]
 block = "memory"
-format_mem = "{Mug}/{MTg} GB({Mup}%)"
-format_swap = "{SUg}/{STg} GB({SUp}%)"
+format_mem = "{Mug}/{MTg} GB({Mupi}%)"
+format_swap = "{SUg}/{STg} GB({SUpi}%)"
 display_type = "memory"
 icons = true
 clickable = true
