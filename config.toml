@@ -27,11 +27,23 @@ critical_swap = 95
 [[block]]
 block = "cpu"
 interval = 1
+format = "{barchart} {utilization}% {frequency}GHz"
 
 [[block]]
 block = "load"
 interval = 1
 format = "{1m}"
+
+[[block]]
+block = "net"
+device = "wlp0s20f3"
+# ssid = true
+# signal_strength = true
+# ip = true
+speed_up = false
+graph_up = true
+interval = 5
+use_bits = false
 
 [[block]]
 block = "sound"
@@ -44,8 +56,24 @@ timezone = "Etc/UTC"
 # locale = "en_AU"
 
 [[block]]
+block = "bluetooth"
+mac = "E8:81:EB:15:51:65"
+# label = "MX Master 3"
+
+[[block]]
 block = "time"
 interval = 60
 format = "LOCAL %a %Y-%m-%d %R"
 # locale = "en_AU"
 timezone = "Australia/Melbourne"
+
+[[block]]
+block = "battery"
+interval = 10
+format = "{percentage}% {time}"
+
+[[block]]
+block = "xrandr"
+icons = true
+# resolution = true
+interval = 2
