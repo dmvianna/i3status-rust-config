@@ -41,11 +41,11 @@ block = "time"
 interval = 60
 format = "UTC %Y-%m-%d %R"
 timezone = "Etc/UTC"
-locale = "en_AU"
+# locale = "en_AU"
 
 [[block]]
 block = "time"
 interval = 60
 format = "LOCAL %a %Y-%m-%d %R"
-locale = "en_AU"
+# locale = "en_AU"
 timezone = "Australia/Melbourne"
