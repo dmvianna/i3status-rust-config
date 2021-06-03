@@ -27,7 +27,7 @@ critical_swap = 95
 [[block]]
 block = "cpu"
 interval = 1
-format = "{barchart} {utilization}% {frequency}GHz"
+format = "{barchart} {utilization} {frequency}"
 
 [[block]]
 block = "load"
@@ -37,7 +37,7 @@ format = "{1m}"
 [[block]]
 block = "net"
 device = "wlp0s20f3"
-format = "{ssid} {signal_strength} {ip} {speed_down;K*b} {graph_down;K*b}"
+format = "{signal_strength} {speed_down;K*b} {graph_down;K}"
 interval = 5
 
 [[block]]
