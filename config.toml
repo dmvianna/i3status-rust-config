@@ -13,8 +13,8 @@ alert = 10.0
 
 [[block]]
 block = "memory"
-format_mem = "{Mug}/{MTg} GB({Mupi}%)"
-format_swap = "{SUg}/{STg} GB({SUpi}%)"
+format_mem = "{mem_used;G}/{mem_total;G}({mem_used_percents})"
+format_swap = "{swap_used;G}/{swap_total;G}({swap_used_percents})"
 display_type = "memory"
 icons = true
 clickable = true
@@ -37,13 +37,8 @@ format = "{1m}"
 [[block]]
 block = "net"
 device = "wlp0s20f3"
-# ssid = true
-# signal_strength = true
-# ip = true
-speed_up = false
-graph_up = true
+format = "{ssid} {signal_strength} {ip} {speed_down;K*b} {graph_down;K*b}"
 interval = 5
-use_bits = false
 
 [[block]]
 block = "sound"
