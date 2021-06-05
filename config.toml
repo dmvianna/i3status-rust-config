@@ -1,5 +1,5 @@
 theme = "solarized-dark"
-icons = "awesome5"
+icons = "awesome"
 
 [[block]]
 block = "disk_space"
@@ -55,9 +55,9 @@ format = "UTC %Y-%m-%d %R"
 timezone = "Etc/UTC"
 # locale = "en_AU"
 
-[[block]]
-block = "bluetooth"
-mac = "E8:81:EB:15:51:65"
+# [[block]]
+# block = "bluetooth"
+# mac = "E8:81:EB:15:51:65"
 # label = "MX Master 3"
 
 [[block]]
