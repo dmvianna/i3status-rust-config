@@ -65,7 +65,7 @@ timezone = "Australia/Melbourne"
 [[block]]
 block = "battery"
 interval = 10
-format = "{percentage}% {time}"
+format = "{percentage} {time}"
 
 [[block]]
 block = "xrandr"
